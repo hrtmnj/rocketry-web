@@ -13,7 +13,7 @@ class Counter extends Component {
     render() { 
         const dynamicStyles = {
             ...this.styles,
-            backgroundColor: (this.state.count === 0) ? "orange" : "dodgerblue"
+            backgroundColor: (this.state.count === 0) ? "red" : "dodgerblue"
         };
 
         return (
